@@ -80,7 +80,7 @@ plt.scatter(
 plt.xlabel("pct")
 plt.ylabel("ppl involved per bn mi")
 plt.legend()
-plt.savefig(f'{directory}/scatter.png')
+plt.savefig(f"{directory}/scatter.png")
 # %% Ex 2
 
 planets = sns.load_dataset("planets")
