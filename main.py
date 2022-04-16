@@ -1,5 +1,4 @@
 # %%
-from turtle import shape
 import seaborn as sns
 import pandas as pd
 import numpy as np
@@ -62,12 +61,12 @@ def LeastSquares(xs, ys):
 
 
 # %%
-inter, slope = LeastSquares(df.alcohol, df.total)
+inter, slope = LeastSquares(df.speeding, df.total)
 print(f"Alcohol: {inter=}; {slope=}")
 df["fit_speeding"] = inter + slope * df["speeding"]
 
 # %%
-inter, slope = LeastSquares(df.speeding, df.total)
+inter, slope = LeastSquares(df.alcohol, df.total)
 print(f"Speeding: {inter=}; {slope=}")
 df["fit_alcohol"] = inter + slope * df["alcohol"]
 
@@ -81,6 +80,7 @@ plt.scatter(
 plt.xlabel("pct")
 plt.ylabel("ppl involved per bn mi")
 plt.legend()
+plt.savefig(f'{directory}/scatter.png')
 # %% Ex 2
 
 planets = sns.load_dataset("planets")
