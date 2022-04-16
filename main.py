@@ -35,7 +35,7 @@ df.columns
 # %%
 df["n_speeding"] = df["total"] * df["speeding"] / 100
 # %%
-display(df)
+print(df)
 # %%
 df.speeding.describe()
 # %%
