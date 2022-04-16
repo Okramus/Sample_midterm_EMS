@@ -62,7 +62,7 @@ Path(directory).mkdir(parents=True, exist_ok=True)
 
 (b) [5 pts] Create a new column called `twentyfirst_century` that is equal to `1` when the planet has been discovered in the 21st century and `0` otherwise.
 
-(c) [5 pts] With `statsmodels`, buils a logistic regression model that takes the orbital period, the mass, and the distance as regressors and predicts whether a planet was likely to be discovered in the 21st century (versus 20th century). Get the summary of the results of the model.
+(c) [5 pts] With `statsmodels`, build a logistic regression model that takes the orbital period, the mass, and the distance as regressors and predicts whether a planet was likely to be discovered in the 21st century (versus 20th century). Get the summary of the results of the model.
 
 (d) [5 pts] Build a dataframe that contains data for a hypothetical new planet with orbital period of `100`, mass of `1`, and distance of `100`.
 
