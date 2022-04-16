@@ -1,4 +1,4 @@
-# Sample Final Economic Modeling and Simulation
+# Sample Midterm Economic Modeling and Simulation
 
 * Important: the midterm is different from the sample in significant ways, so if you just copy-paste the code your solutions will be most likely wrong and your grade will be penalized. If I detect errors that show that you have __copied from another classmate, your grade will me penalized__ even more.
 
